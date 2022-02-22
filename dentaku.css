@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/*電卓の大きさ*/
+table {
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin-top: 40px;/*余白*/
+  margin-left: 40px;/*余白*/
+}
+
+/*=のところボタン*/
+#result {
+  height: 60px;
+  width: 100%;
+  background-color: #dcdcdca4;/*グレー色*/
+  color: #000;/*黒色*/
+  text-align: center;
+  font-size: 30px;
+}
+ 
+/*ACのボタン*/
+ #clear {
+  height: 60px;
+  width: 100%;
+  background-color: #dcdcdca4;/*グレー色*/
+  color: #000;/*黒色*/
+  text-align: center;
+  font-size: 30;
+ }
+ 
+ button {
+  /* ボタンのサイズ */
+  width: 120px;
+  height: 60px;
+  font-size: x-large;
+  background-color: #dcdcdca4;/*グレー色*/
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+  
+  /*液晶画面の大きさ*/
+ .display {
+  width: 480px;
+  height: 60px;
+  text-align: right; /* 文字を右詰めに */
+  font-size: 30px;/*文字の大きさ*/
+  color: #fff;/*文字色が白*/
+  /* 見た目の詳細設定 */
+  background: #000;/*背景色が黒*/
+  border-radius: 0px;
+}
+   
+
